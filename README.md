@@ -2,7 +2,7 @@
 
 QOD is my first flutter app. I created this for exploring Flutter and Bloc design pattern.
 This is very simple app that fetches random qoute from [
-They Said So Quotes API](https://quotes.rest) and the quote is changing everyday. I also use this project to explore [Bloc](https://github.com/felangel/bloc) library to separate my presentation from business logic.
+They Said So Quotes API](https://quotes.rest) and the quote is changing everyday. I also used this project to explore [Bloc](https://github.com/felangel/bloc) library to separate my presentation from business logic.
 
 
   - Basic Flutter UI
