@@ -8,7 +8,7 @@ They Said So Quotes API](https://quotes.rest) and the quote is changing everyday
   - Basic Flutter UI
   - Bloc Design Pattern
   - Network Request
-  - Parsing Network Request
+  - Parsing Network Response
 
 ### Screen Shot
 <img src="screenshot.png" alt="drawing" width="200"/>  
