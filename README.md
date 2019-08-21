@@ -1,7 +1,5 @@
 # QOD
 
-![alt text](screenshot.png)
-
 QOD is my first flutter app. I created this for exploring Flutter and Bloc design pattern.
 This is very simple app that fetches random qoute from [
 They Said So Quotes API](https://quotes.rest) and the quote is changing everyday. I also use this project to explore [Bloc](https://github.com/felangel/bloc) library to separate my presentation from business logic.
@@ -11,6 +9,9 @@ They Said So Quotes API](https://quotes.rest) and the quote is changing everyday
   - Bloc Design Pattern
   - Network Request
   - Parsing Network Request
+
+### Screen Shot
+<img src="screenshot.png" alt="drawing" width="200"/>  
 
 ### Source
 
