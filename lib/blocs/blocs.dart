@@ -1,3 +1,3 @@
-export 'qoute_state.dart';
-export 'qoute_event.dart';
-export 'qoute_bloc.dart';
+export 'quote_state.dart';
+export 'quote_event.dart';
+export 'quote_bloc.dart';

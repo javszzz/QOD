@@ -5,11 +5,9 @@ import 'package:qod/models/models.dart';
 
 class QouteAPIClient {
    static const baseUrl = 'http://quotes.rest';
-   final http.Client httpClient;
-
-   QouteAPIClient({@required this.httpClient}) : assert(httpClient != null);
-
-   Future<Qoute> getQouteOfTheDay() async {
+   final httpClient =  http.Client();
+   
+   Future<Quote> getQouteOfTheDay() async {
      final locationUrl = '$baseUrl/qod';
      Map<String, String> requestHeaders = {
        'Accept': 'application/json'
@@ -20,6 +18,6 @@ class QouteAPIClient {
        throw Exception('error getting qoute of the day');
      } 
       final json = jsonDecode(response.body);
-      return Qoute.fromJson(json);
+      return Quote.fromJson(json);
    }
 }

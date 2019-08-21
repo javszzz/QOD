@@ -1,18 +1,18 @@
 import 'package:equatable/equatable.dart';
 
-class Qoute extends Equatable {
+class Quote extends Equatable {
   String quote;
   String author;
 
-  Qoute(this.quote, this.author) : super([quote, author]);
+  Quote(this.quote, this.author) : super([quote, author]);
 
-  static Qoute fromJson(dynamic json) {
+  static Quote fromJson(dynamic json) {
       final contentsJson = json['contents'];
       final qouteJson = contentsJson['quotes'][0];
      
       String qoute = qouteJson['quote'];
       String author = qouteJson['author'];
 
-      return Qoute(qoute, author);
+      return Quote(qoute, author);
   }
 }

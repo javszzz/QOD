@@ -1,1 +1,1 @@
-export 'qoute.dart';
+export 'quote.dart';
